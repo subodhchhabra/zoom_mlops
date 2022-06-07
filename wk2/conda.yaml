@@ -1,0 +1,12 @@
+name: vdo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.*
+  - jupyterlab
+  - psycopg2-binary
+  - pip
+  - pip:
+      - setuptools
+      - prefect==2.0b5
